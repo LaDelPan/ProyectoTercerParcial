@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+body{
+    margin: 0;
+}
+
+.encabezado-redes-sociales{
+    background-color: rgb(13, 36, 38);
+    height: 60px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Chelsea Market', cursive;
+
+}
+
+.encabezado-redes-sociales i{
+    color: aliceblue;
+
+}
+
+.encabezado-redes-sociales a{
+    margin-right: 15px;
+}
+
+nav{
+    height: 80px;
+    background-color: rgb(31, 49, 64);
+    display:flex;
+    justify-content: space-around;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+nav .nav-imagen-logo img{
+    height: 60px;
+}
+
+nav .nav-menu ul{
+    display: flex;
+    list-style-type: none; /*quitar viñetas*/
+    
+}
+
+nav .nav-menu-ul li{
+    margin-right: 20px;
+}
+
+nav .nav-menu-ul a{
+    color: aliceblue;
+}
+
+.main{
+    height: 80vh;
+    background-image: url("imagen_pagina_principal.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:center; /*centrar verticalmente*/
+    justify-content: center; /*centrar horizontalmente*/
+}
+
+.main-section{
+    color:aliceblue;
+    text-align: center;
+}
+
+.main-section a{
+    color: aliceblue;
+}
+
+.main-section h1{
+    font-size: 100px;
+    margin-bottom: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.main-section p{
+    font-size: 20px;
+    margin-bottom: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.main-section button{
+    background-color: rgb(31, 49, 64);
+    width: 180px;
+    height: 60px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.footer{
+    height: 60px;
+    background-image: linear-gradient(#0F141A, #483C4A);
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:aliceblue;
+}
+
+/*...*/
+
+.proyectos-main{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.proyectos-imagen img{
+    height: 350px;
+    padding-right: 15px;
+}
+
+.informacion {
+    width: 600px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+   /* margin-left: 50px; */
+}
+
+.informacion h1{
+    font-family: monospace;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.informacion ul{
+    list-style: none;
+    padding-left: 15px;
+    
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+}
+
+.botones button{
+    background-color: rgb(13, 36, 38);
+    width: 180px;
+    height: 60px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:aliceblue;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.botones a{
+    color: aliceblue;
+}
+
+
+/* ... */
+
+.contactame-main{
+    display: flex;
+    height: 80hv;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.contactame-main img{
+    width: 300px;
+    border-radius: 50%;
+}
+
+.contactame-datos{
+    text-align: center;
+}
+
+.contactame-datos p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ... */
+
+.otros-main{
+display: flex;
+justify-content:space-around;
+font-family: 'Courier New', Courier, monospace;
+}
+
+.otros-main section h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.otros-main section{
+    justify-content: center;
+    text-align: center;
+    width: 20%;
+    padding: 10px;
+    border: #483C4A 5px solid;
+    margin-bottom: 20px;
+   
+}
+
+.otros-main section div img{
+    width: 40%;
+}
+
+.otros-boton button{
+    background-color: #483C4A;
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color:aliceblue;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.otros-boton a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+}
+
+/*...*/
+p{
+    font-family:'Courier New', Courier, monospace;
+}
+.blog-titulo{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.blog-titulo h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+
+.blog-titulo p{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.blog-cuerpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.blog-contenido{
+    width: 30%;
+}
+
+.blog-contenido h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.blog-contenido p{
+    text-align: justify;
+}
+
+.blog-imagen{
+    width: 30%;
+    margin-left: 20px;
+}
+
+.blog-imagen img{
+    width:100%;
+}
+
+.blog-texto{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.blog-texto p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.blog-autor img{
+    border: none;
+    border-radius: 50%;
+    width:10%
+}
+
+.blog-autor{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom: 100px;
+    margin: 100px;
+}
+
+.blog-autor section{
+    margin-left: 10px;
+}
